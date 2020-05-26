@@ -2,8 +2,7 @@ alias vim="nvim"
 alias vi="nvim"
 alias corona='curl -s -L covid19.trackercli.com/romania'
 alias update='sudo pacman -Syu'
-alias config='/usr/bin/git --git-dir=$HOME/etc/.cfg/ --work-tree=$HOME'
-alias da='config add $(cat ~/var/trackfile)'
+alias da='yadm add $(cat ~/var/trackfile)'
 alias ls='exa -al --color=always --group-directories-first'
 alias la='exa -a --color=always --group-directories-first'
 alias ll='exa -l --color=always --group-directories-first'
