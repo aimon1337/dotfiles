@@ -11,7 +11,7 @@ iSaX.bin &
 xrdb ~/etc/Xresources
 xsetroot -cursor_name arrow
 udiskie &
-feh --no-fehbg --bg-fill ~/etc/wall2.jpg
+feh --no-fehbg --bg-fill ~/etc/wallpapers/wall2.jpg
 bspc monitor DVI-D-0 -d 1 2 3 4 5 6 7 8 9 10
 #bspc monitor HDMI-0 -d 1 2 3 4 5 6 7 8 9 10
 

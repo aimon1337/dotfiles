@@ -12,3 +12,4 @@ case "$(printf "a selected area\\ncurrent window\\nfull screen\\na selected area
 	"current window (copy)") maim -i "$(xdotool getactivewindow)" | xclip -selection clipboard -t image/png ;;
 	"full screen (copy)") maim | xclip -selection clipboard -t image/png ;;
 esac
+notify-send Screenshot taken

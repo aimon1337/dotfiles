@@ -1,7 +1,5 @@
 #!/usr/bin/env sh
 exec dwm
-autostart
-exec autostart
 #/usr/bin/dunst &
 #discord &
 #xrdb ~/etc/Xresources

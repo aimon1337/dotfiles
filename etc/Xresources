@@ -48,7 +48,7 @@ dmenu.background:    #161821
 dmenu.foreground:    #84a0c6
 dmenu.selbackground: #84a0c6
 dmenu.selforeground: #161821
-dmenu.font: xos4 Terminus: pixelsize 10
+dmenu.font: xos4 Terminus: pixelsize 8
 
 ! st
 st.termname: st-256color

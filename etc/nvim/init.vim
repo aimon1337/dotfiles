@@ -23,6 +23,11 @@ Plug 'vimwiki/vimwiki'
 Plug 'bling/vim-airline'
 Plug 'tpope/vim-commentary'
 Plug 'kovetskiy/sxhkd-vim'
+Plug 'vim-python/python-syntax'
+Plug 'ap/vim-css-color'
+Plug 'kovetskiy/sxhkd-vim'
+Plug 'PotatoesMaster/i3-vim-syntax'
+Plug 'junegunn/vim-emoji'                          " Vim needs emojis!
 call plug#end()
 
 set bg=light
