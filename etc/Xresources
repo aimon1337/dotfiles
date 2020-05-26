@@ -1,0 +1,75 @@
+##### THIS FILE IS BEING CURRENTLY MANAGED BY URXVTCONFIG #####
+##### CHANGES DONE TO THIS FILE MANUALLY MAY AFFECT THE FUNCTIONALITY ######
+##### PROCEED WITH CAUTION! #####
+! special
+! cherrry9 colorscheme
+
+*.background:  #161821
+*.foreground:  #c6c8d1
+*.cursorColor: #d2d4de
+
+
+! black
+*.color0:      #161821
+*.color8:      #6b7089
+
+! red
+*.color1:      #e27878
+*.color9:      #e98989
+
+! green
+*.color2:      #b4be82
+*.color10:     #c0ca8e
+
+! yellow
+*.color3:      #e2a478
+*.color11:     #e9b189
+
+! blue
+*.color4:      #84a0c6
+*.color12:     #91acd1
+
+! magenta
+*.color5:      #a093c7
+*.color13:     #ada0d3
+
+! cyan
+*.color6:      #89b8c2
+*.color14:     #95c4ce
+
+! white
+*.color7:      #c6c8d1
+*.color15:     #d2d4de
+
+*antialias: true
+*autohint: true
+! dmenu
+dmenu.background:    #161821
+dmenu.foreground:    #84a0c6
+dmenu.selbackground: #84a0c6
+dmenu.selforeground: #161821
+
+! st
+st.termname: st-256color
+
+! urxvt
+URxvt*scrollBar:         false
+URxvt*scrollBar_right:   false
+URxvt*transparent:       false
+URxvt*shading:       90
+URxvt*depth: 32
+URxvt.background: [90]#161821
+URxvt.font: xft:xos4 Terminus:pixelsize=8
+URxvt.letterSpace: 0
+URxvt.termName: rxvt-unicode-256color
+URxvt.perl-ext-common: default,matcher
+URxvt.url-launcher: chromium
+URxvt.matcher.button: 1
+
+! dwm
+dwm.normbordercolor: #6b7089
+dwm.normbgcolor:     #161821
+dwm.normfgcolor:     #c6c8d1
+dwm.selbordercolor:  #84a0c6
+dwm.selbgcolor:      #84a0c6
+dwm.selfgcolor:      #161821

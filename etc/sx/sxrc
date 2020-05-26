@@ -1,0 +1,14 @@
+#!/usr/bin/env sh
+exec dwm
+autostart
+exec autostart
+#/usr/bin/dunst &
+#discord &
+#xrdb ~/etc/Xresources
+#udiskie &
+#feh --no-fehbg --bg-fill ~/etc/wall2.jpg
+#pana aici sunt la dmw, le ai in bspwmrc
+#exec bspwm
+start-pulseaudio-x11 &
+exec nvidia-settings --load-config-only
+xsetroot -cursor_name arrow
