@@ -1,0 +1,4 @@
+#!/bin/sh
+h="$(colorpicker -doq | tr -d '#\n')"; \
+echo -n $h | xclip -sel clip;
+notify-send "$h" "<span background=\"#$h\">			</span>"
