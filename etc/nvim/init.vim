@@ -28,9 +28,10 @@ Plug 'ap/vim-css-color'
 Plug 'kovetskiy/sxhkd-vim'
 Plug 'PotatoesMaster/i3-vim-syntax'
 Plug 'junegunn/vim-emoji'                          " Vim needs emojis!
+Plug 'cocopon/iceberg.vim'
 call plug#end()
 
-set bg=light
+set bg=dark
 set go=a
 set mouse=a
 set nohlsearch
