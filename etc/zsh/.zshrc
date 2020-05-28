@@ -13,7 +13,6 @@ zmodload zsh/complist
 compinit
 EDITOR='nvim'
 BROWSER='ff'
-TERMINAL='st'
 #TERM='st-256color'
 # Include hidden files in autocomplete:
 _comp_options+=(globdots)
